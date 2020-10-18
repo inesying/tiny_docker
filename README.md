@@ -13,9 +13,13 @@ root@youyou-virtual-machine:/home/youyou/hello# vim hell-dockerfile
 # 3.创建镜像
 root@youyou-virtual-machine:/home/youyou/hello# docker build -f ./hell-dockerfile  -t my-hello-docker:v1.0 .
 
+![image](https://github.com/inesying/tiny_docker/blob/main/dockerimage/build.png)
+
 # 4.运行镜像
 
 root@youyou-virtual-machine:/home/youyou/hello# docker run my-hello-docker:v1.0
 
 # 5.运行结果
+
+![image](https://github.com/inesying/tiny_docker/blob/main/dockerimage/result.png)
 
