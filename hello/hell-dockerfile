@@ -1,0 +1,7 @@
+FROM gcc
+
+RUN mkdir -p /myapp
+ADD . /myapp
+WORKDIR /myapp
+RUN g++ hello.cpp -o hello
+CMD ["./hello"]
